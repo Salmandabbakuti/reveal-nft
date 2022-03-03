@@ -1,0 +1,16 @@
+{
+  "name": "#MYNFT3",
+  "description": "My awesome NFT3",
+  "external_url": "https://forum.openzeppelin.com",
+  "image": "https://openmoji.org/data/color/svg/1F338.svg",
+  "properties": {
+    "issuer": "ABC",
+    "length": "10",
+    "width": "4",
+    "height": "12",
+    "weight": "140",
+    "color": "red",
+    "material": "plastic",
+    "shape": "rectangle"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "#MYNFT2",
+  "description": "My awesome NFT2",
+  "external_url": "https://forum.openzeppelin.com",
+  "image": "https://openmoji.org/data/color/svg/1F4AE.svg",
+  "properties": {
+    "issuer": "GHI",
+    "length": "19",
+    "width": "14",
+    "height": "8",
+    "weight": "140",
+    "color": "WHITE",
+    "material": "plastic",
+    "shape": "circle"
+  }
+}
