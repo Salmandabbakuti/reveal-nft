@@ -7,11 +7,13 @@ contract NFTReveal is ERC1155 {
     
     address public owner;
     bool private isRevealed;
-    string constant name = "Flower Collection";
-    string constant symbol = "FLWR";
+    string public name;
+    string public symbol;
 
     constructor() ERC1155("https://salmandabbakuti.github.io/reveal-nft/metadata/{id}.json") {
         owner = msg.sender;
+        name = "Flower Collection";
+        symbol = "FLWR";
         _mint(msg.sender, 0, 200, "");
         _mint(msg.sender, 1, 120, "");
         _mint(msg.sender, 2, 1, "");
